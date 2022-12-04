@@ -29,16 +29,18 @@ This application allows to the user to feed a Database running the seeds/index.j
 
 ### GET
 
-Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link http://localhost:3001/api/categories, Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
 
 The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png
 
 <h1 align="center">
   hey there
   <img src="(https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png)" width="30px"/>
 </h1>
 
-## Repository_Link: <a href = "(https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png)">([https://github.com/guillerocko1/Employee-Tracker-Challenge12](https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png))</a>
+## Repository_Link: <a href = "(https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png)">((https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png))</a>
 
 
 
