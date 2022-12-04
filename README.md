@@ -42,6 +42,7 @@ https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png
 
 ## Repository_Link: <a href = "(https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png)">((https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png))</a>
 
+<img src="github.com/guillerocko1/E-commerce-Back-End/API_ALL.png" width="50%" height="50%">
 
 
 ### Quantifiers
