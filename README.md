@@ -35,6 +35,7 @@ The same Information will be shown using GET routes to return all categories, al
 
 https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png
 
+
 <h1 align="center">
   hey there
   <img src="(https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png)" width="30px"/>
