@@ -6,8 +6,8 @@
 - [GET All Categories](#GET-All-Categories)
 - [GET A Specific Category](#GET-Spcific-Category)
 - [POST](#POST)
-- [OR Operator](#or-operator)
-- [Character Classes](#character-classes)
+- [PUT](#PUT)
+- [DELETE](#DELETE)
 
 
 ## E-commerce-Back-End
