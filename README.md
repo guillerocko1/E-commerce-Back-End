@@ -4,6 +4,7 @@
 ## Table of Contents
 
 - [GET All Categories](#GET-All-Categories)
+- [GET A Specific Category](#GET-Spcific-Category)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
@@ -36,16 +37,16 @@ For example the root localhost/3001/categories will show all the data stored in 
 ![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
 
 
-### GET 
+### GET Spcific Category
 
-Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/category, the user will get the information about a specific Category.
 
-The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+The same Information will be shown using GET routes to return a spcific product, and a spcific tag being tested in Insomnia Core.
 
-For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+For example the root localhost/3001/category/6 will show the information of a spcific category. The image in the following link shows the information shown to the user from the local server in insomnia.
 
 
-![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_Categories:6.png?raw=true)]
 
 
 ### GET
