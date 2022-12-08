@@ -49,7 +49,7 @@ https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png
 
 <img src="https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png" width="50%" height="50%">
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/guillerocko1/E-commerce-Back-End/blob/API_ALL.png?raw=true)
 
 
 
