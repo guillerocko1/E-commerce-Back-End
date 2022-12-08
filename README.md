@@ -33,7 +33,11 @@ Running the app in Visual Studio code (node server), opening Insomnia, selecting
 
 The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
 
+For example the root http://localhost/3001/categories will show all the data stored in the table categories.
+
+
 https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png
+![alt text](http://url/to/img.png)
 
 
 <h1 align="center">
