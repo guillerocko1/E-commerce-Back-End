@@ -8,13 +8,7 @@
 - [POST](#POST)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
-- [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## E-commerce-Back-End
 
@@ -64,7 +58,7 @@ The following link will show the way to run POST adding a new Category.
 ![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_POST.png?raw=true)]
 
 
-### GET
+### PUT
 
 Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
 
@@ -73,10 +67,10 @@ The same Information will be shown using GET routes to return all categories, al
 For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
 
 
-![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_PUT.png?raw=true)]
 
 
-### GET
+### DELETE
 
 Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
 
@@ -85,7 +79,7 @@ The same Information will be shown using GET routes to return all categories, al
 For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
 
 
-![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_DELETE.png?raw=true)]
 
 
 ### GET
