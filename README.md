@@ -52,7 +52,7 @@ POST let us add an item to out Database. For example: In Insomnia, when we use P
 
 As a result, we will add one cateogry to the table Categoiries and it will get automatically the ID.
 
-The following link will show the way to run POST adding a new Category.
+The following link will show you running POST in Insomnia, adding a new Category.
 
 
 ![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_POST.png?raw=true)]
@@ -60,12 +60,15 @@ The following link will show the way to run POST adding a new Category.
 
 ### PUT
 
-Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+Running PUT in Insomnia, will let the user to Update any data in the Database. The code added in Insomnia is basically the same than using POST.
+We select the option JSON, and we will add the information about the data we want to update.
+For example, if we want to update the Category with the ID: 6 the code would be the following.
 
-The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+{
+  "category_name": "New name of the category"
+}
 
-For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
-
+Once, we run the API, Insomnia will shows that one row in the table has been updated. The following link shows how Insomnia looks after running the API.
 
 ![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_PUT.png?raw=true)]
 
@@ -91,39 +94,7 @@ The same Information will be shown using GET routes to return all categories, al
 For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
 
 
-![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
 
-
-### GET
-
-Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
-
-The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
-
-For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
-
-
-![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
-
-### Quantifiers
-
-### OR Operator
-
-### Character Classes
-
-### Flags
-
-### Grouping and Capturing
-
-### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
