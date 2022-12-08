@@ -3,7 +3,7 @@
 
 ## Table of Contents
 
-- [GET All Categories](#GET)
+- [GET All Categories](#GET-All-Categories)
 - [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
