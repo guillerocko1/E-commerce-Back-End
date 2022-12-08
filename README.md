@@ -5,7 +5,7 @@
 
 - [GET All Categories](#GET-All-Categories)
 - [GET A Specific Category](#GET-Spcific-Category)
-- [Quantifiers](#quantifiers)
+- [POST](#POST)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
 - [Flags](#flags)
