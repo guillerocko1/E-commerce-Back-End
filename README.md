@@ -1,14 +1,6 @@
 # E-commerce-Back-End
 
 
-## Summary
-
-To build this application we need to use the MySQL2 Links to an external site and Sequelize Links to an external site packages  as well to connect the Express.js API to a MySQL database and the dotenv package Links to an external site to use environment variables to store sensitive data, like our MySQL username, password, and database name.
-
-Use the schema.sql file in the db folder to create the database using MySQL shell commands. Use environment variables to store sensitive data, like the MySQL username, password, and database name.
-
-This application allows to the user to feed a Database running the seeds/index.js file and it can seen in MySql using the app MySQLWorkBench. After that the user can run each API to see the information in Insomnia.
-
 ## Table of Contents
 
 - [GET All Categories](#GET)
@@ -23,8 +15,48 @@ This application allows to the user to feed a Database running the seeds/index.j
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regex Components
+## E-commerce-Back-End
 
+To build this application we need to use the MySQL2 Links to an external site and Sequelize Links to an external site packages  as well to connect the Express.js API to a MySQL database and the dotenv package Links to an external site to use environment variables to store sensitive data, like our MySQL username, password, and database name.
+
+Use the schema.sql file in the db folder to create the database using MySQL shell commands. Use environment variables to store sensitive data, like the MySQL username, password, and database name.
+
+This application allows to the user to feed a Database running the seeds/index.js file and it can seen in MySql using the app MySQLWorkBench. After that the user can run each API to see the information in Insomnia.
+
+### GET
+
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+
+The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+
+
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+
+
+### GET All categories
+
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+
+The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+
+
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+
+
+### GET 
+
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+
+The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+
+
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
 
 
 ### GET
@@ -33,28 +65,58 @@ Running the app in Visual Studio code (node server), opening Insomnia, selecting
 
 The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
 
-For example the root http://localhost/3001/categories will show all the data stored in the table categories.
-
-
-https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png
-![alt text](http://url/to/img.png)
-
-
-<h1 align="center">
-  hey there
-  <img src="(https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png)" width="30px"/>
-</h1>
-
-## Repository_Link: <a href = "(https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png)">((https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png))</a>
-
-<img src="https://github.com/guillerocko1/E-commerce-Back-End/API_ALL.png" width="50%" height="50%">
-
-![alt text](https://github.com/guillerocko1/E-commerce-Back-End/blob/API_ALL.png?raw=true)
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
 
 
 ![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
 
-![main_window][(https://github.com/guillerocko1/E-commerce-Back-End/blob/main/assets/images/API_ALL.png??raw=true)]
+
+### GET
+
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+
+The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+
+
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+
+
+### GET
+
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+
+The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+
+
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+
+
+### GET
+
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+
+The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+
+
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
+
+
+### GET
+
+Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+
+The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
+
+For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
+
+
+![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_ALL.png?raw=true)]
 
 ### Quantifiers
 
