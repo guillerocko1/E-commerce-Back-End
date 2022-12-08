@@ -75,27 +75,18 @@ Once, we run the API, Insomnia will shows that one row in the table has been upd
 
 ### DELETE
 
-Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
+To run the DELETE API, it is necessary to specify the ID of the item to delete. For exmple if the user wants to delete the product with ID number 1, the user needs to enter the following root. localhost/3001/api/products/1, then, select the option DELETE in Insomnia and run the API. Once, Insomnia execute the API and find the product with specified ID, the product is deleted.
 
-The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
-
-For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
-
+The followong link shows how Insomnia looks when the user execute the DELETE API.
 
 ![result_screen][(https://github.com/guillerocko1/E-commerce-Back-End/blob//main/API_DELETE.png?raw=true)]
-
-
-### GET
-
-Running the app in Visual Studio code (node server), opening Insomnia, selecting the option GET, and speicfying the link localhost:3001/api/categories, in the local server Insomnia will shows the Information about all the categories stored in the table categories in our Database.
-
-The same Information will be shown using GET routes to return all categories, all products, and all tags being tested in Insomnia Core.
-
-For example the root localhost/3001/categories will show all the data stored in the table categories. The image in the following link shows the information shown to the user from the local server in insomnia.
-
 
 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Github Link: https://github.com/guillerocko1
+
+E-commerce-Back-End Repository: https://github.com/guillerocko1/E-commerce-Back-End
+
+
